@@ -14,7 +14,10 @@ public class SerializationTest2 {
 			 oo=new ObjectInputStream(fo);
 			Intern tempIntern=(Intern)oo.readObject();
 		System.out.println("name "+tempIntern.name+"  id "+tempIntern.id+" pos "+tempIntern.pos);
+		System.out.println(" brand "+tempIntern.car.brand+" "+tempIntern.x);
 		}
+		System.out.println(oo.readObject());
+		oo.close(); 
 	}
 
 }

@@ -12,27 +12,29 @@ public class SerializationTest1 {
 		String [] fileNames= {"manu.txt","sooraj.txt","krip.txt","suji.txt","sunil.txt"};
 		
 		try {
-			for(String fileName:fileNames) {
-				Intern i=new Intern();
-				 fo=new FileOutputStream(fileName);
-				 oo=new ObjectOutputStream(fo);
-				oo.writeObject(i);
-			}
+				for(String fileName:fileNames) {
+						Intern i=new Intern();
+						 fo=new FileOutputStream(fileName);
+						 oo=new ObjectOutputStream(fo);
+						oo.writeObject(i);
+				}
 			 fo=new FileOutputStream("fileNames.txt");
 			 oo=new ObjectOutputStream(fo);
-			oo.writeObject((Object)fileNames);
-			 
-			
-		} catch (IOException e) {
+			oo.writeObject((Object)fileNames);	
+		}
+		catch (IOException e)
+		{
 			
 			e.printStackTrace();
 		}
-		finally{
+		finally 
+		{
 			fo.close();
 			oo.close();
 		}
 		
-
 	}
+	
 
 }
+ 
