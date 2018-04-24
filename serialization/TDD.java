@@ -5,7 +5,8 @@ public class TDD
 	
 	public static void main(String args[])
 	{
-          Intern intern  = new Intern("silpa","mecode house",89765,1);
+	       Employee employee = new Employee();	
+          Intern intern  = new Intern("silpa","mecode house",89765,1,employee);
 			
 			
 			
