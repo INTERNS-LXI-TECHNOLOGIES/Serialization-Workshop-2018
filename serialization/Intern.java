@@ -15,7 +15,7 @@ public class Intern implements Serializable
 			this.sessionId = sessionId;
 			this.employee = employee;
 		}
-		employee.setName("prasad");
+		//employee.setName("prasad");
 	    public void setName(String name)
 		
 	    {
