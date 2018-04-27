@@ -4,7 +4,7 @@ import java.io.*;
 public class TDD
 {
 	
-	public static void main(String args[])
+	public static void main(String args[]) throws OptionalDataException
 	{
             
 			Intern n;

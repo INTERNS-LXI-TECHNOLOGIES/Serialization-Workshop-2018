@@ -1,6 +1,6 @@
 package com.lxisoft.certworkss.serialization;
 import java.io.*;
-public class Employee implements Serializable
+public class Employee 
 {
    private String name;
    public Employee(String name)
