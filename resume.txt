@@ -1,0 +1,63 @@
+
+Athira PM
+Associate Software Engineer	 
+
+Wadakkumkara Madam
+Desamangalam (PO),Thrissur
+Pin-679532
+ph:8943070297
+email:athirapms@gmail.com
+?
+Skills	 
+?	Core areas:
+Java
+Spring Boot 
+Jhipster
+Spring Boot JPA
+Mysql
+Maven
+
+?	Version Controlling System:
+GIT
+?	Issue Tracking System:
+JIRA
+Confluence
+
+?
+Experience	 
+Company Information
+           	11 months Experience
+            	Lxi Technologies Pvt.Ltd
+            	Gandhi Seva Sadan (Riverside Campus), P O Gandhi Seva
+       	Sadan Pathiripala, Palakkad, Kerala 679302
+ 
+Project Worked On
+ 
+?      Graeshoppe POS
+ 
+             	An open-source POS solution that meets any kind of business needs.I have worked on Purchase module that is exactly an inverse of direct sales where suppliers connects to retailers/wholesalers.
+ 
+ 
+?
+Education	 
+Malabar College Of Engineering And Technology / Degree
+August 2013 - June  2017,  Desamangalam
+Bachelor of Technology  in Computer Science And Engineering 
+CGPA 7.25 (Semester 1-8)
+GHSS Cheruthuruthy / HSE
+2011 - 2013,  Cheruthuruthy
+TRKHSS Vaniyamkulam /SSLC
+2010- 2011,  Vaniyamkulam
+
+?
+Declaration	 
+
+I hereby declare that all details given  above is  true to the best of my knowledge.
+ 
+ 
+Place:
+Date:                                                                                                 (Athira PM)
+
+
+
+
