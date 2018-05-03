@@ -28,9 +28,13 @@ public class Tdd {
 					//System.out.println(m1.find());
 					System.out.println("MAil id matched"+m1.group());
 				}
+				Pattern p2=Pattern.compile("(0?[1-9]|[12][1-9]|[3][01])/(0?[1-9]|[1][12])/19?[0-99]{2}");		
+				Matcher m2=p2.matcher(s);
+				while(m2.find()){
+					System.out.println("matched date is"+m2.group());
+				}
 				
 			}
-			//System.out.println(ph);
 		}
 		catch(Exception e){
 			e.printStackTrace();

@@ -6,6 +6,7 @@ Desamangalam (PO),Thrissur
 Pin-679532
 number:9809203816
 email:athirapms@gmail.com
+dob:16/04/1980
 Skills	 
 Core areas:
 Java
