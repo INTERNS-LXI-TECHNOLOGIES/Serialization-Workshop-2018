@@ -3,37 +3,39 @@ package scjptest;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Tdd {
 
-	public static void main(String[] args) {
-		String[] ph=null;
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
+		BufferedReader br=null;
 		try{
 			File f=new File("resume.txt");
-			BufferedReader br=new BufferedReader(new FileReader(f));
+			br=new BufferedReader(new FileReader(f));
 			String s;
-			while(br.readLine()!=null){
-				s=br.readLine();
-				Pattern p=Pattern.compile("\\d\\d\\d\\d\\d\\d\\d\\d\\d\\d");
+			while((s=br.readLine())!=null){
+				Pattern p=Pattern.compile("\\d{10}");		
 				Matcher m=p.matcher(s);
 				while(m.find()){
-					System.out.println(m.group());
+					System.out.println("Mobile number matched "+m.group());
 				}
-				Pattern p1=Pattern.compile("^([\\w/.]+)@([\\w]+)$");
+				Pattern p1=Pattern.compile("([\\w/.]+)@([\\w]+).[(com)/(in)]{2,4}");
 				Matcher m1=p1.matcher(s);
 				while(m1.find()){
-					System.out.println(m.find());
-					System.out.println(m1.group());
+					//System.out.println(m1.find());
+					System.out.println("MAil id matched"+m1.group());
 				}
 				
 			}
 			//System.out.println(ph);
 		}
 		catch(Exception e){
-			//e.printStackTrace();
+			e.printStackTrace();
+		}finally {
+			br.close();
 		}
 	}
 
